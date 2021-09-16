@@ -38,4 +38,5 @@ app.get('/search', (req, res) => {
 });
 
 const port = process.env.PORT || 4000;
-app.listen(port,'localhost', () => console.log('Listening on port localhost', port));
+app.listen(port, () => console.log('Listening on port localhost', port));
+//module.exports = app;
